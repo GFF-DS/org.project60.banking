@@ -118,6 +118,7 @@ Exports from accounting systems may or may not work with a sequence validation. 
 
 ###  Magic fields
 These fields within the btx namespace are special:
+
 | field				| evaluated by | effect|
 | ----------- 		| ----------- | ----------- |
 | `amount`  	| ExistingContribution matcher 		| used to calculate penalty for amount |
@@ -132,5 +133,6 @@ These fields within the btx namespace are special:
 | `_party_BIC`  	| most (all?) matchers 		| used to create a bank account for the matched contact |
 
 This list is not complete!
+
 
 
